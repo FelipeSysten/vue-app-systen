@@ -8,6 +8,9 @@
         <li>PHP</li>
         <li>Python</li>
     </ul>
+    <div>
+      <button @click="showEmail">Mostrar e-mail</button>
+    </div>
     <p v-show="mostrar_email">Mande uma mensagem para: {{ email }}</p>
     <p>Para acessar meu portfolio basta <a v-bind:href="meu_link" target="_blank">clicar aqui</a></p>
     <p v-if="1 > 2">testando</p>
@@ -31,6 +34,12 @@ export default {
       email: 'systen3@gmail.com',
       meu_link: 'http://google.com'
     }
+  },
+  methods: {
+    showEmail() {
+      this.mostrar_email = !this.mostrar_email
+    }
   }
+
 }
 </script>
