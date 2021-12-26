@@ -1,6 +1,11 @@
 <template>
-    <img :src="avatar" :alt="descricao">
+<div >
+  <img width="500" :src="avatar" :alt="descricao">
 
+
+</div>
+
+  
  </template>
 
  <script>
@@ -16,3 +21,8 @@
 
  }
  </script>
+
+ <style scoped>
+
+ 
+ </style>
