@@ -1,7 +1,7 @@
 <template>
 <Banner />
   <div class="main-container">
-    <h1>Escolha sua camisa:</h1>
+    <h1>Escolha seu Hamburger:</h1>
     <Camisaform />
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <div id="main-banner">
-        <h1>Systen Camisas</h1>
+        <h1>Systen Hamburger</h1>
     </div>
     
 </template>
@@ -15,7 +15,7 @@ export default{
 <style scoped>
 
 #main-banner {
-    background-image: url('/img/images.jfif');
+    background-image: url('/img/images.jpg');
     background-position: 0 -250px;
     background-size: cover;
     height: 500px;
